@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(135deg, #1a1a1a, #2e2e2e);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #000000, #b60000) !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.navbar a {
+    color: #fff !important;
+}
+
+.academia-card {
+    background: linear-gradient(135deg, #2e2e2e, #1a1a1a);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    color: white;
+    border-left: 5px solid #b60000;
+}
+
+.btn-warning {
+    background-color: #2e2e2e;
+    border: none;
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #b60000;
+    color: white;
+}
+
+.dumbbell-icon::before {
+    content: "💪";
+    margin-right: 8px;
+}
+
+.benefit-item {
+    padding: 15px;
+}
+
+.benefit-item h6 {
+    margin-top: 10px;
+    color: #ff8c00;
+}
+
+.plano-card {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.plano-card.destaque {
+    background: rgba(182, 0, 0, 0.2);
+    border: 2px solid #ff8c00;
+    transform: scale(1.05);
+}
+
+.plano-card h5 {
+    color: #ff8c00;
+    margin-bottom: 10px;
+}
+
+.imagem-academia {
+    text-align: center;
+}
+
+.imagem-academia img {
+    max-height: 700px;
+    width: auto;
+    border: 3px solid #b60000;
+}
